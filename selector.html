@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* universal selctor */
+        /* *{
+            color: brown
+        } */
+
+        /* class selector */
+        .container{
+            color: red
+        }
+
+        .container2{
+            color: pink;
+        }
+
+        .container.container2{
+            color: maroon;
+        }
+
+        /* id selector */
+        #one{
+            font-size: large;
+        }
+        
+        /* grouping  */
+        .oneClass,.two,.three{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+   <h1>heading</h1> 
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, minus? Blanditiis, voluptatibus omnis maiores quidem exercitationem maxime unde. Est dolor consectetur dolores qui cupiditate officia quas similique libero id voluptatibus?</p>
+   <p id="one">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi id laborum? Optio omnis labore atque accusamus nesciunt, pariatur natus quae explicabo, reiciendis quas distinctio quidem amet illo cupiditate reprehenderit?</p>
+
+   <div class="container">
+    <h1>heading class</h1>
+    <p>para class</p>
+</div>
+
+<div>
+    <h3>heading3</h3>
+</div>
+
+<a class="container" href="">link</a>
+
+<p class="container2">class container2 is applied on me</p>
+ 
+<!--multiple classes-->
+<p class="container container2">multiple or both classes are present</p>
+
+<h2>grouping</h2>
+<a class="oneClass" href="">linkgroup</a>
+<h5 class="two">headingGroup</h5>
+<p class="three">paraGroup</p>
+
+</body>
+</html>
