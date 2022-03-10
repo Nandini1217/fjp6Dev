@@ -24,3 +24,14 @@ let a= function sub(num1,num2){
     return num1-num2;
 }
 console.log(a(10,5));
+
+//IIFE
+//Without parameter
+(function(){
+    console.log("Hello from IIFE");
+})();
+
+//with parameter
+(function(num1,num2){
+    console.log(num1/num2);
+})(10,5);
