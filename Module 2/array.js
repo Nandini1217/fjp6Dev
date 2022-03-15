@@ -28,3 +28,7 @@ console.log(eleArr);
 //4.unshift
 eleArr.unshift("Nandini Solanki");
 console.log(eleArr);
+
+//5. length
+let len=eleArr.length;
+console.log(len);
