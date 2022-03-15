@@ -32,3 +32,16 @@ console.log(capAmerica.Friends);
 console.log(capAmerica.address);
 console.log(capAmerica.address.city);
 capAmerica.sayHi();
+
+//adding and deleting keys
+capAmerica.Movies=['Avengers','Civil War','Endgame'];
+console.log(capAmerica.Movies);
+
+delete capAmerica.Movies;
+console.log(capAmerica);
+
+//to change a key
+capAmerica.Age=6789;
+console.log(capAmerica.Age);
+
+console.log(capAmerica['Name']);
