@@ -24,3 +24,11 @@ let capAmerica={
     }
 }
 console.log(capAmerica);
+
+//calling or accessing individually
+console.log(capAmerica.Name);
+console.log(capAmerica.Friends[0]);
+console.log(capAmerica.Friends);
+console.log(capAmerica.address);
+console.log(capAmerica.address.city);
+capAmerica.sayHi();
