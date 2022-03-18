@@ -17,4 +17,10 @@ console.log(bs);
 //gives directory path
 console.log(__dirname);
 
+let dr= __dirname;
+console.log(dr);
+
 console.log(__filename);
+
+let newFile=path.join(dr,"test.js");
+console.log(newFile);
