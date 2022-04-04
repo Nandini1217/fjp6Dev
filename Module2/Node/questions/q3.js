@@ -1,11 +1,11 @@
-//Q. copy index.html file from module1 to a new folder inside module2 having name html.
+//Q. copy index.html file from module1 to a folder inside module2 having name html.
 
 let fs = require("fs");
 let path = require("path");
 
-let srcPath = path.join(__dirname,"..","..","..","module1","index.html");
-console.log("source path --> ",srcPath);
-let destPath = path.join(__dirname,"..","..","index.html");
-console.log("destination --> ",destPath);
+let srcPath=path.join(__dirname,"..","..","..","Module1","index.html");
 
-fs.copyFileSync(srcPath,destPath);
+
+let desPath=path.join(__dirname,"..","..","index.html");
+
+fs.copyFileSync(srcPath,desPath);
