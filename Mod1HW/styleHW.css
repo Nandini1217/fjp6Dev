@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: 30px; */
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 400px; */
+    list-style-type: none;  /*(to remove bullets)*/
+    margin-top: 70px;
+}
+nav{
+    width: 40%;
+}   
+h1{
+    margin-top: 50px;
+}
+img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
