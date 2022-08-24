@@ -8,15 +8,16 @@ ul{
     justify-content: space-evenly;
     /* width: 400px; */
     list-style-type: none;  /*(to remove bullets)*/
-    margin-top: 70px;
+    margin-top: 40px;
 }
 nav{
     width: 40%;
 }   
 h1{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 img{
     margin-left: 20px;
     margin-top: 20px;
+height: 40px;
 }
